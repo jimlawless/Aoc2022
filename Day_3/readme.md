@@ -1,1 +1,3 @@
+This one took me a bit longer.  I probably would have approached it a little differently if I'd been using a template for processing files that did a brute force read.  Instead, I'm iterating over the input.  For the second challenge, I had to use a counter to differentiate the three records of each scenario instead of just reading the data directly into three variables.  I did this in the interest of time.  Today, I'll look up the proper syntax for direct file reads in Python and it'll probably end up being one of those things that will remain etched in my mind.
 
+Oh, I was also reminded that I should use .find() to locate a string within a substring, not .index().  The latter throws an exception of the search term isn't found.
